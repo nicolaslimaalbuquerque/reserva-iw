@@ -1,0 +1,68 @@
+body{
+    background-image: url(../img/depositphotos_99017664-stock-photo-space-background-with-stars.jpg);
+    background-attachment: fixed;
+    font-family: 'Castoro Titling', cursive;
+}
+html{ 
+    scroll-behavior: smooth;
+}
+h1{
+
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+    header{
+        width: 100%;
+        background-color: rgb(1, 41, 28);
+    }
+    .logo {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 1.4em;
+
+    }
+    nav{ 
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 1.4em;
+    }
+    .banner{
+        width: 80%;
+        margin:auto ;
+    }
+    .container {
+        background-color: rgb(133, 133, 133);
+        width: 80%;
+        margin: auto;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    footer{
+        background-color: firebrick;
+        color: black;
+        font-size: 1.3em;
+        text-align: center; 
+    }
+    p{
+        padding-top: 1%;
+        padding-bottom: 0,5%;
+        font-size: 1.2cm;
+        line-height: 1.5mm;
+        text-align: justify;
+        
+    }
+    .nome:hover
+    {
+        color: red;
+        transition: 1s;
+        font-size: 1.5em;
+    }
+    .linha{
+        display: flex;
+        flex-flow: row wrap;
+        text-align: center;    
+    }
+    
+    .col-6 {
+        width: 25%;
+    }
