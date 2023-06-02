@@ -66,3 +66,9 @@ h1{
     .col-6 {
         width: 25%;
     }
+    #grad{
+        background-image: linear-gradient(to bottom right, red , rgb(27, 21, 21));
+    }
+    .jiu{ 
+        border-style: groove;
+    }
