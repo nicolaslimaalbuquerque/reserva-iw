@@ -105,3 +105,16 @@ article{
         tr:nth-child(even) {
           background-color: #dddddd;
         }
+        .col-6 {
+            width: 50%;
+            text-align: center; }
+
+        .imagem-card{
+            background-image: linear-gradient(to right, #b30202 , #2c0202);
+            width: 90%;
+            border-style: double;
+            border-color: #000000;
+            border-width: 5px;
+            box-shadow: 15px 15px 15px 2px rgba(239, 234, 234, 0.2);
+            transition: 0.3s;   
+        }
