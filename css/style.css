@@ -39,7 +39,7 @@ li{
 }
 
 .imgtam{
-    width: 20%;
+    width:20%;
     margin-left: 2%;
 }
 .icon{
@@ -96,7 +96,8 @@ article{
     }
     
     .col-6 {
-        width: 25%;
+        width: 50%;
+        text-align: center;
     }
     #grad{
         background-image: linear-gradient(to bottom right, red , rgb(27, 21, 21));
@@ -107,7 +108,7 @@ article{
 
     .imagem-card{
         background-image: linear-gradient(to right, #272121 , #790000);
-        width: 90%;
+        width: 100%;
         border-style: double;
         border-color: #8a0808;
         border-width: 20px;
