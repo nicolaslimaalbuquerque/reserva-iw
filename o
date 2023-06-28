@@ -72,3 +72,12 @@
 			</tr>
 		  </table>
 		</section>
+
+		.imagem-card{
+    background-image: linear-gradient(to right, #808080 , #DCDCDC);
+    width: 90%;
+    border-style: double;
+    border-color: #696969;
+    border-width: 5px;
+    box-shadow: 15px 15px 15px 2px rgba(239, 234, 234, 0.2);
+    transition: 0.3s;   
