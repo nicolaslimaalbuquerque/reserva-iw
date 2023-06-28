@@ -123,3 +123,11 @@ article{
         tr:nth-child(even) {
           background-color: #dddddd;
         }
+ li{
+    padding-top: 1%;
+    padding-bottom: 0,5%;
+    font-size: 200%;
+    line-height: 1.em;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;  
+ }       
