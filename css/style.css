@@ -6,6 +6,19 @@ body{
 html{ 
     scroll-behavior: smooth;
 }
+header{
+    header{
+        padding: 1.5%;  
+        font-family: 'Patrick Hand', cursive;
+        background-color: #131313;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.5em;
+      }
+    
+    }
 .p{
     padding-top: 1%;
     padding-bottom: 0,5%;
@@ -39,7 +52,7 @@ li{
 }
 
 .imgtam{
-    width:30%;
+    width:25%;
     margin-left: 2%;
 }
 
@@ -56,11 +69,7 @@ li{
     article{
     font-size: larger;
 }
-    header{
-        width: 100%;
-        background-color: #272121;
-        
-    }
+
     .logo {
         color: rgb(255, 255, 255);
         text-align: center;
@@ -140,4 +149,5 @@ td, th {
 tr:nth-child(even) {
           background-color: #dddddd;
 }
+
 

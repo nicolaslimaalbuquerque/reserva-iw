@@ -141,3 +141,69 @@
 	<a href="https://www.youtube.com/embed/AAzXvKPKlSw" title="Leandro Lo v Isaque Bahiense / World Championship 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"> 
 	<img class="imgdireita imgtam" src="img/GABRIEL_VELLA_vs_ROMINHO_51.jpg" alt="imagem de Gabriel vella e rominho" width="30%"></a>
 	</figure>
+
+
+
+ 	.fixo{
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 1;
+	  
+	  }
+	  
+	  
+	  
+	  
+	  .img_logo{
+		width: 30%;
+	  }
+	  
+	  footer{
+		background-color: rgba(128, 128, 128, 0.3); 
+		padding: 1.5%;  
+		font-family: 'Patrick Hand', cursive;
+	  }
+	  
+	  .itens_menu{
+		line-height: 1.5;
+		text-align: center;
+	  }
+	  
+	  .itens_menu a{
+		font-size: 1.2em;
+	  }
+	  
+	  .itens_menu a:link, .itens_menu a:visited{ 
+		  color: #fff;
+		  text-decoration: none;
+		}  
+		/* mouse over link */
+	  .itens_menu a:hover {
+		  color: #fff;
+		  padding: 0.8%;    
+		  background-color: rgba(128, 128, 128, 0.3); 
+		  text-decoration: none;
+		  border-radius: 15%;
+	  
+		}
+		
+		/* selected link */
+	  .itens_menu a:active {
+		  color: #FFF;
+		  text-decoration: none;
+		}
+	  
+	  section a:link{
+		color: #696969;
+	  }
+	  
+	  section a:visited {
+		color: #FFF; 
+	  }
+	  
+	  section a:hover{
+		color: #696969;
+	  }
+	  
