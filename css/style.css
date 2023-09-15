@@ -3,18 +3,16 @@ html{
 }
 
 body{
-    background-image: url(../img/fundo-vermelho-grunge.jpg);
+    background-color: 2a6d44;
     background-attachment: fixed;
     font-family: 'Castoro Titling', cursive;
 }
 
 .container {
     background-color: rgb(133, 133, 133);
-    margin-top: 4%;
     width: 80%;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-right: 5%;
-    position: relative;
 }
     
 header, footer{
@@ -47,7 +45,7 @@ header, footer{
 .itensmenu ul li{
 
 display: inline;
-margin-left:13px; ;
+margin-left:15px; ;
 
 }
 
@@ -60,7 +58,7 @@ margin-left:13px; ;
 
 .ajustes li:hover{
 
-    background-color: #0a0a0a;
+    background-color: #6d6b6b;
     color: #ffffff;
 }
 footer{
@@ -134,8 +132,9 @@ li{
         font-size: 1.4em;
     }
 .banner{
-        width: 80%;
+        width: 100%;
         margin:center ;
+        padding-top:5% ;
     }
 
     
@@ -164,7 +163,7 @@ li{
 
 .imagem-card{
         background-image: linear-gradient(to right, #272121 , #790000);
-        width: 100%;
+        width: 94,5%;
         border-style: double;
         border-color: #8a0808;
         border-width: 20px;
@@ -187,4 +186,44 @@ tr:nth-child(even) {
           background-color: #dddddd;
 }
 
+@media screen and (max-width: 830px) {
+    
+    header, footer{
+        padding: 1.5%;  
+        font-family: 'Castoro Titling', cursive;
+        background-color: #131313;
+        flex-direction:column;
+    }
 
+      .itensmenu{
+
+        position: static;
+        right: 5%;
+        top:45% ;
+        font-size:xx-large;
+        color: #d60000;
+    
+    }
+    
+    .itensmenu ul li{
+    
+    display: block;
+    margin-top:15px ;
+    
+    }
+    
+    .ajustes{
+    
+        line-height: 1;
+        text-align: center;
+    
+    }
+    .banner{
+        width: 100%;
+        padding-top:37% ;
+    }
+    
+
+
+    
+}
